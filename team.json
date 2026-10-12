@@ -1,0 +1,149 @@
+{
+  "pokemon": [
+    {
+      "name": "Dekute",
+      "level": 12,
+      "nature": "jolly",
+      "baseStats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 48,
+        "spAttack": 45,
+        "spDefense": 50,
+        "speed": 62
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "spAttack": 31,
+        "spDefense": 31,
+        "speed": 31
+      },
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "spAttack": 0,
+        "spDefense": 0,
+        "speed": 0
+      },
+      "moves": [
+        {
+          "name": "Dekuschuss"
+        },
+        {
+          "name": "Kugelsaat"
+        },
+        {
+          "name": "Wachstum"
+        },
+        {
+          "name": "Tackle"
+        }
+      ],
+      "item": "Kein Item",
+      "types": [
+        "Pflanze"
+      ],
+      "ability": "Deku Ammo"
+    },
+    {
+      "name": "Desuke",
+      "level": 28,
+      "nature": "jolly",
+      "baseStats": {
+        "hp": 62,
+        "attack": 82,
+        "defense": 63,
+        "spAttack": 58,
+        "spDefense": 63,
+        "speed": 82
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "spAttack": 31,
+        "spDefense": 31,
+        "speed": 31
+      },
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "spAttack": 0,
+        "spDefense": 0,
+        "speed": 0
+      },
+      "moves": [
+        {
+          "name": "Finte"
+        },
+        {
+          "name": "Abschlag"
+        },
+        {
+          "name": "Rasierblatt"
+        },
+        {
+          "name": "Schutzschild"
+        }
+      ],
+      "item": "Kein Item",
+      "types": [
+        "Pflanze"
+      ],
+      "ability": "Silent Leaf"
+    },
+    {
+      "name": "Deksciple",
+      "level": 50,
+      "nature": "jolly",
+      "baseStats": {
+        "hp": 78,
+        "attack": 115,
+        "defense": 75,
+        "spAttack": 72,
+        "spDefense": 80,
+        "speed": 110
+      },
+      "ivs": {
+        "hp": 31,
+        "attack": 31,
+        "defense": 31,
+        "spAttack": 31,
+        "spDefense": 31,
+        "speed": 31
+      },
+      "evs": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "spAttack": 0,
+        "spDefense": 0,
+        "speed": 0
+      },
+      "moves": [
+        {
+          "name": "Schattenklinge"
+        },
+        {
+          "name": "Laubklinge"
+        },
+        {
+          "name": "Nachthieb"
+        },
+        {
+          "name": "Blattklingenwirbel"
+        }
+      ],
+      "item": "Kein Item",
+      "types": [
+        "Pflanze",
+        "Unlicht"
+      ],
+      "ability": "Twilit Fog"
+    }
+  ]
+}

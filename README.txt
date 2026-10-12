@@ -1,0 +1,1 @@
+Zelda Pokémon TTRPG V26. Offline index.html öffnen. Griffel und Ambidiffel samt Doppelschlag-Entwicklung ergänzt. Techniker und andere neue Spezialfähigkeiten sind katalogisiert, aber nicht vollständig automatisiert.

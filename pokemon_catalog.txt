@@ -1,0 +1,3440 @@
+{
+  "source": "Zelda-Pokédex V26: Griffel #190 und Ambidiffel #424 ergänzt.",
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Dekute",
+      "category": "Deku-Scrub-Pokémon",
+      "types": [
+        "Pflanze"
+      ],
+      "heightM": 0.8,
+      "weightKg": 4.5,
+      "rarity": "Super Rare",
+      "habitat": "Deku Glade, Faron Province",
+      "baseStats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 48,
+        "spAttack": 45,
+        "spDefense": 50,
+        "speed": 62
+      },
+      "abilities": [
+        {
+          "name": "Deku Ammo",
+          "effect": "Bei einer schädigenden Pflanzenattacke mit Deku-Samen im Inventar: Schaden und Initiative leicht erhöht; verbraucht 1 Deku-Samen. TTRPG-Vorschlag: ×1,2 Pflanzenschaden und +1 Initiative-Stufe für die Runde. Muss derzeit manuell angewendet werden."
+        },
+        {
+          "name": "Leaf Burrow",
+          "effect": "Kann durch mit Laub bedeckte Erdlöcher tauchen und an anderer Stelle wieder auftauchen. Erkundungsfähigkeit, kein automatischer Kampfbonus."
+        },
+        {
+          "name": "Seed Sower",
+          "effect": "Lässt 2–5 zusätzliche Deku-Samen als Beute fallen. Außerhalb des Kampfes abwickeln."
+        }
+      ],
+      "description": "Ein schelmischer Waldgeist aus Holz und Blättern. Dekute beschießt unachtsame Reisende mit Deku-Samen und verschwindet blitzschnell im Unterholz.",
+      "evolution": {
+        "to": "Desuke",
+        "level": 16
+      },
+      "drop": "3 Deku-Samen",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Dekuschuss"
+          },
+          {
+            "level": 8,
+            "name": "Wachstum"
+          },
+          {
+            "level": 11,
+            "name": "Kugelsaat"
+          },
+          {
+            "level": 14,
+            "name": "Rasierblatt"
+          },
+          {
+            "level": 17,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 20,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 24,
+            "name": "Gigasauger"
+          },
+          {
+            "level": 28,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 32,
+            "name": "Laubklinge"
+          },
+          {
+            "level": 37,
+            "name": "Blattklingenwirbel"
+          },
+          {
+            "level": 42,
+            "name": "Solarstrahl"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Kugelsaat",
+          "Gigasauger",
+          "Solarstrahl",
+          "Schwerttanz",
+          "Aero-Ass"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 2,
+      "name": "Desuke",
+      "category": "Deku-Scrub-Pokémon",
+      "types": [
+        "Pflanze"
+      ],
+      "heightM": 1.2,
+      "weightKg": 20.4,
+      "rarity": "Super Rare",
+      "habitat": "Deku Glade, Faron Province",
+      "baseStats": {
+        "hp": 62,
+        "attack": 82,
+        "defense": 63,
+        "spAttack": 58,
+        "spDefense": 63,
+        "speed": 82
+      },
+      "abilities": [
+        {
+          "name": "Silent Leaf",
+          "effect": "Nach Auswechslung und späterem Wiedereinwechseln ist die nächste schädigende Pflanzenattacke garantiert kritisch. Danach ist der Bonus verbraucht. Krit-Chance im Rechner manuell auf Garantiert setzen."
+        }
+      ],
+      "description": "Sein schleichender Kampfstil wird mit jeder Entwicklung raffinierter. Hinterhalte und schnelle Blattschnitte verraten die dunkle Energie, die tief in Desuke erwacht.",
+      "evolution": {
+        "from": "Dekute",
+        "fromLevel": 16,
+        "to": "Deksciple",
+        "level": 36
+      },
+      "drop": "3 Deku-Samen",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 1,
+            "name": "Dekuschuss"
+          },
+          {
+            "level": 5,
+            "name": "Wachstum"
+          },
+          {
+            "level": 11,
+            "name": "Kugelsaat"
+          },
+          {
+            "level": 14,
+            "name": "Rasierblatt"
+          },
+          {
+            "level": 16,
+            "name": "Finte"
+          },
+          {
+            "level": 19,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 23,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 27,
+            "name": "Abschlag"
+          },
+          {
+            "level": 31,
+            "name": "Laubklinge"
+          },
+          {
+            "level": 35,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 39,
+            "name": "Nachthieb"
+          },
+          {
+            "level": 44,
+            "name": "Blattklingenwirbel"
+          },
+          {
+            "level": 49,
+            "name": "Blättersturm"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Kugelsaat",
+          "Gigasauger",
+          "Solarstrahl",
+          "Schwerttanz",
+          "Aero-Ass",
+          "Abschlag",
+          "Verhöhner",
+          "Kreuzschere"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 3,
+      "name": "Deksciple",
+      "category": "Twilit-Hybrid-Pokémon",
+      "types": [
+        "Pflanze",
+        "Unlicht"
+      ],
+      "heightM": 2.2,
+      "weightKg": 34.0,
+      "rarity": "Super Rare",
+      "habitat": "Deku Glade, Faron Province",
+      "baseStats": {
+        "hp": 78,
+        "attack": 115,
+        "defense": 75,
+        "spAttack": 72,
+        "spDefense": 80,
+        "speed": 110
+      },
+      "abilities": [
+        {
+          "name": "Twilit Fog",
+          "effect": "Nach 3 Runden auf dem Kampffeld legt Deksciple für 3 Runden Zwielichtnebel über das Feld. Eigene Aktionen sind verborgen und Silent Leaf ist für diese Dauer aktiv. TTRPG: GM verwaltet den Runden-Zähler und die garantierten kritischen Pflanzenangriffe manuell."
+        }
+      ],
+      "description": "Von Zwielichtnebel durchdrungen, bewegt sich Deksciple blitzschnell durch Schatten. Seine scharfen Blattklingen treffen aus dem Verborgenen; manche bezweifeln, dass es noch ein gewöhnlicher Deku-Geist ist.",
+      "evolution": {
+        "from": "Desuke",
+        "fromLevel": 36
+      },
+      "drop": "Schattenkristall",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Dekuschuss"
+          },
+          {
+            "level": 1,
+            "name": "Finte"
+          },
+          {
+            "level": 1,
+            "name": "Rasierblatt"
+          },
+          {
+            "level": 16,
+            "name": "Finte"
+          },
+          {
+            "level": 19,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 23,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 27,
+            "name": "Abschlag"
+          },
+          {
+            "level": 31,
+            "name": "Laubklinge"
+          },
+          {
+            "level": 35,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 36,
+            "name": "Schattenklinge"
+          },
+          {
+            "level": 40,
+            "name": "Nachthieb"
+          },
+          {
+            "level": 44,
+            "name": "Blattklingenwirbel"
+          },
+          {
+            "level": 49,
+            "name": "Nebelstreich"
+          },
+          {
+            "level": 55,
+            "name": "Blättersturm"
+          },
+          {
+            "level": 60,
+            "name": "Kreuzschere"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Kugelsaat",
+          "Gigasauger",
+          "Solarstrahl",
+          "Schwerttanz",
+          "Aero-Ass",
+          "Abschlag",
+          "Verhöhner",
+          "Kreuzschere",
+          "Nachthieb",
+          "Dunkelklaue"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 4,
+      "name": "Gorlit",
+      "category": "Goronen-Pokémon",
+      "types": [
+        "Feuer"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 55,
+        "defense": 65,
+        "spAttack": 45,
+        "spDefense": 45,
+        "speed": 35
+      },
+      "abilities": [
+        {
+          "name": "Goron Strength",
+          "effect": "Nach einer erfolgreichen Gesteinsattacke: +1 Verteidigungsstufe. Nach einer erfolgreichen Feuerattacke: +1 Spezial-Angriffsstufe. Maximal einmal pro Attackeneinsatz; derzeit manuell anwenden."
+        },
+        {
+          "name": "Rockin’ Roller",
+          "effect": "Kann Felsen zerbrechen und dabei 10 % der maximalen KP regenerieren (höchstens einmal pro Kampf). Bei vollen KP kann Gorlit sich zusammenrollen und durch Hindernisse rollen. Erkundung/Heilung manuell."
+        },
+        {
+          "name": "Goronade",
+          "effect": "Kann nach einem Kampf eine Goronade hinterlassen. Sammelfähigkeit, manuell verwalten."
+        }
+      ],
+      "description": "Verspielte Gorlit tollen an den warmen Hängen des Todesbergs herum und lieben heiße Steine. Junge Gorlit messen ihre Stärke in freundschaftlichen Ringkämpfen.",
+      "evolution": {
+        "to": "Gorox",
+        "level": 16
+      },
+      "drop": "Rock Roast",
+      "heightM": 0.9,
+      "weightKg": 9.1,
+      "rarity": "Super Rare",
+      "habitat": "Goron Canyon, Eldin Province",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Glut"
+          },
+          {
+            "level": 8,
+            "name": "Walzer"
+          },
+          {
+            "level": 11,
+            "name": "Härtner"
+          },
+          {
+            "level": 14,
+            "name": "Steinwurf"
+          },
+          {
+            "level": 18,
+            "name": "Flammenrad"
+          },
+          {
+            "level": 22,
+            "name": "Felsgrab"
+          },
+          {
+            "level": 26,
+            "name": "Kopfnuss"
+          },
+          {
+            "level": 30,
+            "name": "Antik-Kraft"
+          },
+          {
+            "level": 34,
+            "name": "Feuerschlag"
+          },
+          {
+            "level": 38,
+            "name": "Steinhagel"
+          },
+          {
+            "level": 43,
+            "name": "Flammenblitz"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Erholung",
+          "Delegator",
+          "Sonnentag",
+          "Sandsturm",
+          "Feuersturm",
+          "Felsgrab",
+          "Steinhagel",
+          "Dampfwalze",
+          "Durchbruch"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 5,
+      "name": "Gorox",
+      "category": "Goronen-Pokémon",
+      "types": [
+        "Feuer",
+        "Gestein"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 85,
+        "spAttack": 55,
+        "spDefense": 60,
+        "speed": 45
+      },
+      "abilities": [
+        {
+          "name": "Molten Fists",
+          "effect": "Schadensverursachende Gesteinsattacken haben zusätzlich 20 % Chance auf Verbrennung. Diese Fähigkeitschance derzeit manuell prüfen."
+        }
+      ],
+      "description": "Gorox trainieren ihre glühenden Fäuste in Wettkämpfen am Todesberg. Trotz ihres rauen Auftretens sehnen sie sich danach, die weiten Ebenen Hyrules zu erkunden.",
+      "evolution": {
+        "from": "Gorlit",
+        "fromLevel": 16,
+        "to": "Gorcano",
+        "level": 36
+      },
+      "drop": "Rock Roast",
+      "heightM": 1.3,
+      "weightKg": 54.4,
+      "rarity": "Super Rare",
+      "habitat": "Goron Canyon, Eldin Province",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 1,
+            "name": "Glut"
+          },
+          {
+            "level": 1,
+            "name": "Walzer"
+          },
+          {
+            "level": 16,
+            "name": "Feuerfaust"
+          },
+          {
+            "level": 20,
+            "name": "Felsgrab"
+          },
+          {
+            "level": 24,
+            "name": "Feuerschlag"
+          },
+          {
+            "level": 28,
+            "name": "Steinhagel"
+          },
+          {
+            "level": 32,
+            "name": "Protzer"
+          },
+          {
+            "level": 36,
+            "name": "Flammenblitz"
+          },
+          {
+            "level": 41,
+            "name": "Steinkante"
+          },
+          {
+            "level": 47,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 53,
+            "name": "Kopfstoß"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Erholung",
+          "Delegator",
+          "Sonnentag",
+          "Sandsturm",
+          "Feuersturm",
+          "Felsgrab",
+          "Steinhagel",
+          "Dampfwalze",
+          "Durchbruch",
+          "Erdbeben",
+          "Steinkante",
+          "Tarnsteine",
+          "Feuerschlag",
+          "Donnerschlag",
+          "Protzer",
+          "Nahkampf",
+          "Flammenblitz"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 6,
+      "name": "Gorcano",
+      "category": "Todesberg-Pokémon",
+      "types": [
+        "Feuer",
+        "Gestein"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 120,
+        "defense": 125,
+        "spAttack": 65,
+        "spDefense": 80,
+        "speed": 35
+      },
+      "abilities": [
+        {
+          "name": "Pillars of Eruption",
+          "effect": "Besiegt Gorcano ein Ziel, erleiden die übrigen Pokémon dessen Teams beim nächsten Einwechseln jeweils 1/16 ihrer maximalen KP als Schaden. Bei einem KO durch eine Gesteinsattacke erhalten sie zusätzlich beim nächsten erlittenen Gesteinsangriff eine 20-%-Verbrennungschance. GM verwaltet Team-Effekte manuell."
+        }
+      ],
+      "description": "Gorcano gleichen wandernden Vulkanen. Bei Gefahr schleudern sie Feuer und Gestein aus ihrem Krater; ihre Schritte sollen selbst am Fuße des Todesbergs spürbar sein.",
+      "evolution": {
+        "from": "Gorox",
+        "fromLevel": 36
+      },
+      "drop": "Large Rock Roast",
+      "heightM": 4.7,
+      "weightKg": 614.6,
+      "rarity": "Super Rare",
+      "habitat": "Goron Canyon, Eldin Province",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Glut"
+          },
+          {
+            "level": 1,
+            "name": "Walzer"
+          },
+          {
+            "level": 1,
+            "name": "Härtner"
+          },
+          {
+            "level": 16,
+            "name": "Feuerfaust"
+          },
+          {
+            "level": 20,
+            "name": "Felsgrab"
+          },
+          {
+            "level": 24,
+            "name": "Feuerschlag"
+          },
+          {
+            "level": 28,
+            "name": "Steinhagel"
+          },
+          {
+            "level": 32,
+            "name": "Protzer"
+          },
+          {
+            "level": 36,
+            "name": "Vulkanhammer"
+          },
+          {
+            "level": 42,
+            "name": "Erdbeben"
+          },
+          {
+            "level": 48,
+            "name": "Steinkante"
+          },
+          {
+            "level": 54,
+            "name": "Flammenblitz"
+          },
+          {
+            "level": 60,
+            "name": "Kopfstoß"
+          },
+          {
+            "level": 66,
+            "name": "Explosion"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Erholung",
+          "Delegator",
+          "Sonnentag",
+          "Sandsturm",
+          "Feuersturm",
+          "Felsgrab",
+          "Steinhagel",
+          "Dampfwalze",
+          "Durchbruch",
+          "Erdbeben",
+          "Steinkante",
+          "Tarnsteine",
+          "Feuerschlag",
+          "Donnerschlag",
+          "Protzer",
+          "Nahkampf",
+          "Flammenblitz",
+          "Überhitzer",
+          "Hitzekoller",
+          "Solarstrahl",
+          "Body Press",
+          "Eisenschädel",
+          "Rammboss",
+          "Explosion"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 7,
+      "name": "Zorelle",
+      "category": "Zora-Pokémon",
+      "types": [
+        "Wasser"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 55,
+        "defense": 45,
+        "spAttack": 60,
+        "spDefense": 45,
+        "speed": 55
+      },
+      "abilities": [
+        {
+          "name": "Zora Swiftness",
+          "effect": "Nach einer Wasserattacke steigt die Initiative um 1 Stufe. Jede dritte eingesetzte Wasserattacke erhält +20 % Schaden, sofern sie Schaden verursacht. Zähler beim Auswechseln zurücksetzen; derzeit manuell anwenden."
+        },
+        {
+          "name": "Swimmer",
+          "effect": "Erlaubt das Durchqueren von Flüssen und Gewässern; mit Zora-Schuppen kann die Schwimmgeschwindigkeit verbessert werden. Erkundungsfähigkeit."
+        },
+        {
+          "name": "Silver Scale",
+          "effect": "Kann beim Fangen zusätzlich eine Silberschuppe hinterlassen. Sammelfähigkeit."
+        }
+      ],
+      "description": "Zorelle sind ausgezeichnete Schwimmer, obwohl sie kaltes Wasser verabscheuen. Menschen, denen sie vertrauen, schenken sie manchmal eine ihrer schimmernden Schuppen.",
+      "evolution": {
+        "to": "Zorene",
+        "level": 16
+      },
+      "drop": "Zorelle Scale",
+      "heightM": 0.6,
+      "weightKg": 6.8,
+      "rarity": "Super Rare",
+      "habitat": "Zora's Domain, Lanayru Province",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 1,
+            "name": "Rutenschlag"
+          },
+          {
+            "level": 5,
+            "name": "Aquaknarre"
+          },
+          {
+            "level": 8,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 11,
+            "name": "Wasserdüse"
+          },
+          {
+            "level": 14,
+            "name": "Blubbstrahl"
+          },
+          {
+            "level": 18,
+            "name": "Agilität"
+          },
+          {
+            "level": 22,
+            "name": "Aquawelle"
+          },
+          {
+            "level": 26,
+            "name": "Aquaschnitt"
+          },
+          {
+            "level": 30,
+            "name": "Regentanz"
+          },
+          {
+            "level": 34,
+            "name": "Kaskade"
+          },
+          {
+            "level": 38,
+            "name": "Hydropumpe"
+          },
+          {
+            "level": 43,
+            "name": "Wasserschweif"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Regentanz",
+          "Aquawelle",
+          "Eissturm",
+          "Agilität",
+          "Delegator",
+          "Erholung",
+          "Surfer",
+          "Eisstrahl"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 8,
+      "name": "Zorene",
+      "category": "Zora-Pokémon",
+      "types": [
+        "Wasser",
+        "Eis"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 60,
+        "spAttack": 75,
+        "spDefense": 60,
+        "speed": 75
+      },
+      "abilities": [
+        {
+          "name": "Glacial Dance",
+          "effect": "Verfehlt eine gegnerische Attacke Zorene, friert seine nächste schadensverursachende Wasserattacke das Ziel garantiert ein. Balance: nur einmal pro Kampf, nicht bei Typimmunität; GM muss Ausweichereignis und Einfrieren manuell verwalten."
+        }
+      ],
+      "description": "Zorene haben gelernt, auch durch eisige Gewässer zu schwimmen. Sie formen Eis zu kunstvollen Verzierungen und bewegen sich im Kampf wie bei einem eleganten Tanz.",
+      "evolution": {
+        "from": "Zorelle",
+        "fromLevel": 16,
+        "to": "Blizzora",
+        "level": 36
+      },
+      "drop": "Zorene Scale",
+      "heightM": 1.4,
+      "weightKg": 29.5,
+      "rarity": "Super Rare",
+      "habitat": "Zora's Domain, Lanayru Province",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 1,
+            "name": "Rutenschlag"
+          },
+          {
+            "level": 1,
+            "name": "Aquaknarre"
+          },
+          {
+            "level": 1,
+            "name": "Wasserdüse"
+          },
+          {
+            "level": 16,
+            "name": "Eissplitter"
+          },
+          {
+            "level": 20,
+            "name": "Aquaschnitt"
+          },
+          {
+            "level": 24,
+            "name": "Eissturm"
+          },
+          {
+            "level": 28,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 32,
+            "name": "Kaskade"
+          },
+          {
+            "level": 36,
+            "name": "Eishieb"
+          },
+          {
+            "level": 41,
+            "name": "Aquawelle"
+          },
+          {
+            "level": 47,
+            "name": "Eiszapfhagel"
+          },
+          {
+            "level": 53,
+            "name": "Wasserschweif"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Regentanz",
+          "Aquawelle",
+          "Eissturm",
+          "Agilität",
+          "Delegator",
+          "Erholung",
+          "Surfer",
+          "Eisstrahl",
+          "Schwerttanz",
+          "Eishieb",
+          "Kaskade",
+          "Blizzard",
+          "Wasserschweif",
+          "Eisenschädel",
+          "Reflektor"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 9,
+      "name": "Blizzora",
+      "category": "Zora-Pokémon",
+      "types": [
+        "Wasser",
+        "Eis"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 115,
+        "defense": 80,
+        "spAttack": 85,
+        "spDefense": 75,
+        "speed": 95
+      },
+      "abilities": [
+        {
+          "name": "Vengeful Blizzard",
+          "effect": "Beim Einwechseln entsteht für 5 Runden starker Schneesturm. Solange er anhält, heilt Blizzora 20 % des mit Eisattacken tatsächlich verursachten Schadens (nicht über maximale KP). Schneewetter: Eis-Pokémon erhalten +50 % Verteidigung. Wetterdauer und Heilung derzeit manuell verwalten."
+        }
+      ],
+      "description": "Blizzora gehören zu Hyrules schnellsten Schwimmern. Das Eis, das ihre Vorfahren einst fürchteten, führen sie heute als messerscharfe Klingen und gewaltige Lanzen.",
+      "evolution": {
+        "from": "Zorene",
+        "fromLevel": 36
+      },
+      "drop": "Blizzora Scale",
+      "heightM": 1.8,
+      "weightKg": 68.0,
+      "rarity": "Super Rare",
+      "habitat": "Zora's Domain, Lanayru Province",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 1,
+            "name": "Aquaknarre"
+          },
+          {
+            "level": 1,
+            "name": "Wasserdüse"
+          },
+          {
+            "level": 1,
+            "name": "Eissplitter"
+          },
+          {
+            "level": 20,
+            "name": "Aquaschnitt"
+          },
+          {
+            "level": 24,
+            "name": "Eissturm"
+          },
+          {
+            "level": 28,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 32,
+            "name": "Kaskade"
+          },
+          {
+            "level": 36,
+            "name": "Gletscherlanze"
+          },
+          {
+            "level": 42,
+            "name": "Eiszapfhagel"
+          },
+          {
+            "level": 48,
+            "name": "Eishieb"
+          },
+          {
+            "level": 54,
+            "name": "Aquadurchstoß"
+          },
+          {
+            "level": 60,
+            "name": "Blizzard"
+          },
+          {
+            "level": 66,
+            "name": "Hydropumpe"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Regentanz",
+          "Aquawelle",
+          "Eissturm",
+          "Agilität",
+          "Delegator",
+          "Erholung",
+          "Surfer",
+          "Eisstrahl",
+          "Schwerttanz",
+          "Eishieb",
+          "Kaskade",
+          "Blizzard",
+          "Wasserschweif",
+          "Eisenschädel",
+          "Reflektor",
+          "Aquadurchstoß",
+          "Eiszapfhagel",
+          "Nahkampf",
+          "Kreuzschere",
+          "Gifthieb",
+          "Hydropumpe"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 10,
+      "name": "Lycub",
+      "category": "Leunenjunges-Pokémon",
+      "types": [
+        "Kampf"
+      ],
+      "heightM": 0.6,
+      "weightKg": 4.5,
+      "rarity": "Common",
+      "habitat": "Hyrule Field, alle Provinzen",
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 45,
+        "spAttack": 25,
+        "spDefense": 40,
+        "speed": 65
+      },
+      "abilities": [
+        {
+          "name": "Battle Charge",
+          "effect": "Physische Attacken erhalten +1 Volltrefferstufe, Genauigkeit ×0,95. GM: Volltreffer/Genauigkeit entsprechend berücksichtigen."
+        },
+        {
+          "name": "Challenger",
+          "effect": "Ermöglicht Begegnungen mit Pokémon bis zu 5 Level über dem üblichen Gebietsniveau (GM-Entscheid)."
+        },
+        {
+          "name": "Bully",
+          "effect": "Beim Fangereignis: dem Teammitglied mit den wenigsten aktuellen KP 10 % seiner maximalen KP Schaden zufügen (nicht kampfunfähig machen); Lycub heilt sich vollständig. Einmalig und manuell."
+        }
+      ],
+      "description": "Lycub stürmen unerschrocken auf alles zu, was ihren Weg kreuzt. Ihr hitziges Temperament führt oft zu Kämpfen mit stärkeren Pokémon. Ihre flauschige Mähne lässt viele Menschen unterschätzen, wie gefährlich sie sein können.",
+      "evolution": {
+        "to": "Champleon",
+        "level": 35
+      },
+      "drop": "Lycub Horn",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 5,
+            "name": "Kratzer"
+          },
+          {
+            "level": 9,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 13,
+            "name": "Fußkick"
+          },
+          {
+            "level": 17,
+            "name": "Biss"
+          },
+          {
+            "level": 21,
+            "name": "Doppelkick"
+          },
+          {
+            "level": 25,
+            "name": "Kopfnuss"
+          },
+          {
+            "level": 29,
+            "name": "Kraftwelle"
+          },
+          {
+            "level": 33,
+            "name": "Durchbruch"
+          },
+          {
+            "level": 37,
+            "name": "Knirscher"
+          },
+          {
+            "level": 42,
+            "name": "Protzer"
+          },
+          {
+            "level": 47,
+            "name": "Nahkampf"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Durchbruch",
+          "Fußkick",
+          "Dampfwalze",
+          "Knirscher",
+          "Felsgrab"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 11,
+      "name": "Champleon",
+      "category": "Leunen-Pokémon",
+      "types": [
+        "Kampf"
+      ],
+      "heightM": 1.6,
+      "weightKg": 79.4,
+      "rarity": "Uncommon",
+      "habitat": "Hyrule Field, alle Provinzen",
+      "baseStats": {
+        "hp": 75,
+        "attack": 105,
+        "defense": 75,
+        "spAttack": 35,
+        "spDefense": 65,
+        "speed": 85
+      },
+      "abilities": [
+        {
+          "name": "Scars",
+          "effect": "Nach einem Treffer durch eine bestimmte Attacke erleidet Champleon bei weiteren Treffern durch genau diese Attacke 15 % weniger Schaden. Bis zum Auswechseln; nicht stapelbar; GM prüft."
+        }
+      ],
+      "description": "Champleon fordern selbst deutlich stärkere Gegner zum Kampf heraus. Ihre gewaltigen Pranken können Felsen zertrümmern. Sie durchstreifen Hyrules Ebenen auf der Suche nach würdigen Rivalen und lernen aus jeder Niederlage.",
+      "evolution": {
+        "from": "Lycub",
+        "fromLevel": 35,
+        "to": "Centyrant",
+        "condition": "Besiege mit Champleon mindestens einen Gegner in jeder Begegnungszone von Hyrule Field."
+      },
+      "drop": "Champleon Horn",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 1,
+            "name": "Kratzer"
+          },
+          {
+            "level": 1,
+            "name": "Fußkick"
+          },
+          {
+            "level": 35,
+            "name": "Löwenpranke"
+          },
+          {
+            "level": 39,
+            "name": "Knirscher"
+          },
+          {
+            "level": 44,
+            "name": "Protzer"
+          },
+          {
+            "level": 49,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 54,
+            "name": "Erdbeben"
+          },
+          {
+            "level": 60,
+            "name": "Gigastoß"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Durchbruch",
+          "Fußkick",
+          "Dampfwalze",
+          "Knirscher",
+          "Felsgrab",
+          "Protzer",
+          "Erdbeben",
+          "Steinhagel",
+          "Steinkante",
+          "Eisenschädel",
+          "Donnerschlag",
+          "Feuerschlag"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 12,
+      "name": "Centyrant",
+      "category": "Leunen-Pokémon",
+      "types": [
+        "Kampf"
+      ],
+      "heightM": 3.7,
+      "weightKg": 356.1,
+      "rarity": "Rare",
+      "habitat": "Hyrule Field, alle Provinzen",
+      "baseStats": {
+        "hp": 100,
+        "attack": 140,
+        "defense": 100,
+        "spAttack": 50,
+        "spDefense": 90,
+        "speed": 100
+      },
+      "abilities": [
+        {
+          "name": "Dominate",
+          "effect": "Besiegt Centyrant ein gegnerisches Pokémon, besteht 50 % Chance, ein zufälliges weiteres kampffähiges Gegner-Teammitglied mit Paralyse, Verbrennung oder Vergiftung zu belegen (zufällige Wahl, Immunitäten beachten; GM prüft)."
+        }
+      ],
+      "description": "Centyrant beherrschen die weiten Ebenen Hyrules. Mit ihren gewaltigen Hufen zertrampeln sie jedes Hindernis. Selbst mächtige Pokémon meiden ihre Reviere, denn Centyrant akzeptieren nur ebenbürtige Gegner.",
+      "evolution": {
+        "from": "Champleon",
+        "condition": "Champleon hat in jeder Begegnungszone von Hyrule Field mindestens einen Gegner besiegt."
+      },
+      "drop": "Centyrant Horn",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 1,
+            "name": "Fußkick"
+          },
+          {
+            "level": 1,
+            "name": "Doppelkick"
+          },
+          {
+            "level": 1,
+            "name": "Löwenpranke"
+          },
+          {
+            "level": 40,
+            "name": "Knirscher"
+          },
+          {
+            "level": 45,
+            "name": "Protzer"
+          },
+          {
+            "level": 50,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 55,
+            "name": "Erdbeben"
+          },
+          {
+            "level": 60,
+            "name": "Megahorn"
+          },
+          {
+            "level": 65,
+            "name": "Tyrannensturm"
+          },
+          {
+            "level": 70,
+            "name": "Gigastoß"
+          },
+          {
+            "level": 75,
+            "name": "Kraftkoloss"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Durchbruch",
+          "Fußkick",
+          "Dampfwalze",
+          "Knirscher",
+          "Felsgrab",
+          "Protzer",
+          "Erdbeben",
+          "Steinhagel",
+          "Steinkante",
+          "Eisenschädel",
+          "Donnerschlag",
+          "Feuerschlag",
+          "Nahkampf",
+          "Kraftkoloss",
+          "Megahorn",
+          "Gigastoß",
+          "Gifthieb",
+          "Schwerttanz",
+          "Rammboss"
+        ],
+        "hm": []
+      }
+    },
+    {
+      "id": 12,
+      "name": "Centyrant (Donner)",
+      "category": "Donner-Leunen-Pokémon",
+      "types": [
+        "Kampf",
+        "Elektro"
+      ],
+      "heightM": 3.7,
+      "weightKg": 356.1,
+      "rarity": "Elemental",
+      "habitat": "Hyrule Field, alle Provinzen",
+      "baseStats": {
+        "hp": 90,
+        "attack": 135,
+        "defense": 85,
+        "spAttack": 65,
+        "spDefense": 75,
+        "speed": 130
+      },
+      "abilities": [
+        {
+          "name": "Thunder Dominate",
+          "effect": "Besiegt Donner-Centyrant einen Gegner, besteht eine 50-%-Chance, ein zufälliges gegnerisches Teammitglied zu paralysieren (GM prüft)."
+        }
+      ],
+      "description": "Elementarform von Centyrant. Donner-Kraft verändert Mähne, Hörner und Pranken. Formwechsel nur außerhalb des Kampfes.",
+      "evolution": {
+        "formOf": "Centyrant",
+        "formCondition": "Gewinne mit Centyrant eine besondere Prüfung während eines Gewitters in der Gerudo-Region."
+      },
+      "drop": "Thunder Centyrant Horn",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 1,
+            "name": "Fußkick"
+          },
+          {
+            "level": 1,
+            "name": "Doppelkick"
+          },
+          {
+            "level": 1,
+            "name": "Löwenpranke"
+          },
+          {
+            "level": 40,
+            "name": "Knirscher"
+          },
+          {
+            "level": 45,
+            "name": "Protzer"
+          },
+          {
+            "level": 50,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 55,
+            "name": "Erdbeben"
+          },
+          {
+            "level": 60,
+            "name": "Megahorn"
+          },
+          {
+            "level": 65,
+            "name": "Tyrannensturm"
+          },
+          {
+            "level": 70,
+            "name": "Gigastoß"
+          },
+          {
+            "level": 75,
+            "name": "Kraftkoloss"
+          },
+          {
+            "level": 65,
+            "name": "Blitzansturm"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Durchbruch",
+          "Fußkick",
+          "Dampfwalze",
+          "Knirscher",
+          "Felsgrab",
+          "Protzer",
+          "Erdbeben",
+          "Steinhagel",
+          "Steinkante",
+          "Eisenschädel",
+          "Donnerschlag",
+          "Feuerschlag",
+          "Nahkampf",
+          "Kraftkoloss",
+          "Megahorn",
+          "Gigastoß",
+          "Gifthieb",
+          "Schwerttanz",
+          "Rammboss",
+          "Stromstoß",
+          "Donnerzahn",
+          "Voltwechsel"
+        ],
+        "hm": []
+      },
+      "form": "Donner"
+    },
+    {
+      "id": 12,
+      "name": "Centyrant (Eis)",
+      "category": "Eis-Leunen-Pokémon",
+      "types": [
+        "Kampf",
+        "Eis"
+      ],
+      "heightM": 3.7,
+      "weightKg": 356.1,
+      "rarity": "Elemental",
+      "habitat": "Hyrule Field, alle Provinzen",
+      "baseStats": {
+        "hp": 110,
+        "attack": 130,
+        "defense": 120,
+        "spAttack": 40,
+        "spDefense": 110,
+        "speed": 70
+      },
+      "abilities": [
+        {
+          "name": "Frozen Dominate",
+          "effect": "Besiegt Eis-Centyrant einen Gegner, besteht eine 50-%-Chance, die Initiative eines zufälligen gegnerischen Teammitglieds um 1 Stufe zu senken (GM prüft)."
+        }
+      ],
+      "description": "Elementarform von Centyrant. Eis-Kraft verändert Mähne, Hörner und Pranken. Formwechsel nur außerhalb des Kampfes.",
+      "evolution": {
+        "formOf": "Centyrant",
+        "formCondition": "Gewinne mit Centyrant eine besondere Prüfung im Hebra-Gebirge."
+      },
+      "drop": "Ice Centyrant Horn",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 1,
+            "name": "Fußkick"
+          },
+          {
+            "level": 1,
+            "name": "Doppelkick"
+          },
+          {
+            "level": 1,
+            "name": "Löwenpranke"
+          },
+          {
+            "level": 40,
+            "name": "Knirscher"
+          },
+          {
+            "level": 45,
+            "name": "Protzer"
+          },
+          {
+            "level": 50,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 55,
+            "name": "Erdbeben"
+          },
+          {
+            "level": 60,
+            "name": "Megahorn"
+          },
+          {
+            "level": 65,
+            "name": "Tyrannensturm"
+          },
+          {
+            "level": 70,
+            "name": "Gigastoß"
+          },
+          {
+            "level": 75,
+            "name": "Kraftkoloss"
+          },
+          {
+            "level": 65,
+            "name": "Frostpranke"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Durchbruch",
+          "Fußkick",
+          "Dampfwalze",
+          "Knirscher",
+          "Felsgrab",
+          "Protzer",
+          "Erdbeben",
+          "Steinhagel",
+          "Steinkante",
+          "Eisenschädel",
+          "Donnerschlag",
+          "Feuerschlag",
+          "Nahkampf",
+          "Kraftkoloss",
+          "Megahorn",
+          "Gigastoß",
+          "Gifthieb",
+          "Schwerttanz",
+          "Rammboss",
+          "Eishieb",
+          "Eiszapfhagel",
+          "Eissplitter",
+          "Lawine"
+        ],
+        "hm": []
+      },
+      "form": "Eis"
+    },
+    {
+      "id": 12,
+      "name": "Centyrant (Malice)",
+      "category": "Malice-Leunen-Pokémon",
+      "types": [
+        "Kampf",
+        "Gift"
+      ],
+      "heightM": 3.7,
+      "weightKg": 356.1,
+      "rarity": "Elemental",
+      "habitat": "Hyrule Field, alle Provinzen",
+      "baseStats": {
+        "hp": 105,
+        "attack": 125,
+        "defense": 105,
+        "spAttack": 65,
+        "spDefense": 100,
+        "speed": 80
+      },
+      "abilities": [
+        {
+          "name": "Malice Dominate",
+          "effect": "Besiegt Malice-Centyrant einen Gegner, besteht eine 50-%-Chance, ein zufälliges gegnerisches Teammitglied schwer zu vergiften (GM prüft)."
+        }
+      ],
+      "description": "Elementarform von Centyrant. Malice-Kraft verändert Mähne, Hörner und Pranken. Formwechsel nur außerhalb des Kampfes.",
+      "evolution": {
+        "formOf": "Centyrant",
+        "formCondition": "Bestehe mit Centyrant eine Prüfung in einer von Verderbnis befallenen Region."
+      },
+      "drop": "Malice Centyrant Horn",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 1,
+            "name": "Fußkick"
+          },
+          {
+            "level": 1,
+            "name": "Doppelkick"
+          },
+          {
+            "level": 1,
+            "name": "Löwenpranke"
+          },
+          {
+            "level": 40,
+            "name": "Knirscher"
+          },
+          {
+            "level": 45,
+            "name": "Protzer"
+          },
+          {
+            "level": 50,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 55,
+            "name": "Erdbeben"
+          },
+          {
+            "level": 60,
+            "name": "Megahorn"
+          },
+          {
+            "level": 65,
+            "name": "Tyrannensturm"
+          },
+          {
+            "level": 70,
+            "name": "Gigastoß"
+          },
+          {
+            "level": 75,
+            "name": "Kraftkoloss"
+          },
+          {
+            "level": 65,
+            "name": "Verderbnisklaue"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Durchbruch",
+          "Fußkick",
+          "Dampfwalze",
+          "Knirscher",
+          "Felsgrab",
+          "Protzer",
+          "Erdbeben",
+          "Steinhagel",
+          "Steinkante",
+          "Eisenschädel",
+          "Donnerschlag",
+          "Feuerschlag",
+          "Nahkampf",
+          "Kraftkoloss",
+          "Megahorn",
+          "Gigastoß",
+          "Gifthieb",
+          "Schwerttanz",
+          "Rammboss",
+          "Giftzahn",
+          "Mülltreffer",
+          "Giftschock"
+        ],
+        "hm": []
+      },
+      "form": "Malice"
+    },
+    {
+      "id": 13,
+      "name": "Spydull",
+      "category": "Skulltula-Pokémon",
+      "types": [
+        "Käfer"
+      ],
+      "heightM": 0.4,
+      "weightKg": 2.3,
+      "rarity": "Common",
+      "habitat": "Höhlen und Wälder, alle Provinzen",
+      "baseStats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 65,
+        "spAttack": 30,
+        "spDefense": 45,
+        "speed": 35
+      },
+      "abilities": [
+        {
+          "name": "Skull Shell",
+          "effect": "Beim Kampfeintritt Verteidigung +1. Bei physischem Kontakttreffer Verteidigung -1 und Angriff +1; wiederholbar."
+        },
+        {
+          "name": "Shiny Charm",
+          "effect": "Nur Shiny-Spydull: verdreifacht die Chance auf Shiny-Begegnungen (Erkundung; GM)."
+        },
+        {
+          "name": "Golden Token",
+          "effect": "Nur Shiny-Spydull: lässt beim Fangen Golden Skulltula Token fallen."
+        }
+      ],
+      "description": "Spydull hängen kopfüber an Ästen und Höhlendecken. Ihre Schädelhülle schützt sie vor Feinden, doch ihr unheimliches Aussehen schreckt selbst neugierige Pokémon ab. Oft beobachten sie Eindringlinge stundenlang, ohne sich zu bewegen.",
+      "evolution": {
+        "to": "Coffoon",
+        "level": 12
+      },
+      "drop": "Skull Shell",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Fadenschuss"
+          },
+          {
+            "level": 1,
+            "name": "Käferbiss"
+          },
+          {
+            "level": 5,
+            "name": "Härtner"
+          },
+          {
+            "level": 9,
+            "name": "Giftstachel"
+          },
+          {
+            "level": 15,
+            "name": "Spinnennetz"
+          },
+          {
+            "level": 19,
+            "name": "Käfertrutz"
+          },
+          {
+            "level": 23,
+            "name": "Blutsauger"
+          },
+          {
+            "level": 27,
+            "name": "Kreuzschere"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Käfertrutz",
+          "Gifthieb",
+          "Felsgrab",
+          "Ausdauer"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Goldene Schädelmaske, blaue/türkise Augen oder Phantomklauen; keine separate Pokédex-Nummer."
+    },
+    {
+      "id": 14,
+      "name": "Coffoon",
+      "category": "Schädelkokon-Pokémon",
+      "types": [
+        "Käfer",
+        "Geist"
+      ],
+      "heightM": 0.4,
+      "weightKg": 2.8,
+      "rarity": "Common",
+      "habitat": "Höhlen und Wälder, alle Provinzen",
+      "baseStats": {
+        "hp": 55,
+        "attack": 30,
+        "defense": 100,
+        "spAttack": 35,
+        "spDefense": 85,
+        "speed": 15
+      },
+      "abilities": [
+        {
+          "name": "Fright",
+          "effect": "Beim Einwechseln 20 % Chance, das Ziel einmalig zu erschrecken: verliert seine nächste Aktion. Pro gegnerischem Pokémon nur einmal erfolgreich."
+        }
+      ],
+      "description": "Coffoon wickeln sich vollständig in dichte Spinnweben, um sich vor der Außenwelt zu verstecken. Der Geist in ihrer Schädelhülle flüstert ihnen unheimliche Geschichten zu. Wer einem Coffoon zu lange in die Augen blickt, verspürt plötzlich unerklärliche Angst.",
+      "evolution": {
+        "from": "Spydull",
+        "fromLevel": 12,
+        "to": "Skultergeist",
+        "level": 30
+      },
+      "drop": "Skull Shell",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Fadenschuss"
+          },
+          {
+            "level": 1,
+            "name": "Käferbiss"
+          },
+          {
+            "level": 5,
+            "name": "Härtner"
+          },
+          {
+            "level": 12,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 15,
+            "name": "Spinnennetz"
+          },
+          {
+            "level": 19,
+            "name": "Käfertrutz"
+          },
+          {
+            "level": 23,
+            "name": "Eisenabwehr"
+          },
+          {
+            "level": 27,
+            "name": "Nachtnebel"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Eisenabwehr",
+          "Spukball",
+          "Irrlicht",
+          "Ausdauer"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Goldene Schädelmaske, blaue/türkise Augen oder Phantomklauen; keine separate Pokédex-Nummer."
+    },
+    {
+      "id": 15,
+      "name": "Skultergeist",
+      "category": "Phantom-Skulltula-Pokémon",
+      "types": [
+        "Käfer",
+        "Geist"
+      ],
+      "heightM": 1.4,
+      "weightKg": 48,
+      "rarity": "Uncommon",
+      "habitat": "Höhlen und Wälder, alle Provinzen",
+      "baseStats": {
+        "hp": 75,
+        "attack": 105,
+        "defense": 100,
+        "spAttack": 85,
+        "spDefense": 90,
+        "speed": 65
+      },
+      "abilities": [
+        {
+          "name": "Phase",
+          "effect": "Sehr effektive physische Kontaktattacken können gegen Skultergeist keinen Volltreffer erzielen. Typenschwächen gelten normal."
+        }
+      ],
+      "description": "Wenn der Geist eines Coffoon die vollständige Kontrolle übernimmt, entsteht Skultergeist. Seine gewaltigen Phantombeine können durch feste Wände gleiten. In verlassenen Ruinen bewegt es sich lautlos durch das Mauerwerk, um Eindringlinge aus dem Hinterhalt zu überraschen.",
+      "evolution": {
+        "from": "Coffoon",
+        "fromLevel": 30
+      },
+      "drop": "Skull Shell",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Fadenschuss"
+          },
+          {
+            "level": 1,
+            "name": "Käferbiss"
+          },
+          {
+            "level": 5,
+            "name": "Härtner"
+          },
+          {
+            "level": 12,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 15,
+            "name": "Spinnennetz"
+          },
+          {
+            "level": 19,
+            "name": "Käfertrutz"
+          },
+          {
+            "level": 23,
+            "name": "Eisenabwehr"
+          },
+          {
+            "level": 27,
+            "name": "Nachtnebel"
+          },
+          {
+            "level": 30,
+            "name": "Phantomklaue"
+          },
+          {
+            "level": 34,
+            "name": "Schattenstoß"
+          },
+          {
+            "level": 39,
+            "name": "Kreuzschere"
+          },
+          {
+            "level": 44,
+            "name": "Dunkelklaue"
+          },
+          {
+            "level": 49,
+            "name": "Spukball"
+          },
+          {
+            "level": 55,
+            "name": "Phantomfessel"
+          },
+          {
+            "level": 61,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 67,
+            "name": "Poltergeist"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erholung",
+          "Kreuzschere",
+          "Spukball",
+          "Irrlicht",
+          "Dunkelklaue",
+          "Schwerttanz",
+          "Gifthieb",
+          "Schattenklaue",
+          "Phantomkraft",
+          "Käfergebrumm",
+          "Kehrtwende"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Goldene Schädelmaske, blaue/türkise Augen oder Phantomklauen; keine separate Pokédex-Nummer."
+    },
+    {
+      "id": 16,
+      "name": "Gohmite",
+      "category": "Gohma-Larven-Pokémon",
+      "types": [
+        "Käfer"
+      ],
+      "heightM": 0.6,
+      "weightKg": 2.4,
+      "rarity": "Common",
+      "habitat": "Höhlen, alle Provinzen",
+      "baseStats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 40,
+        "spAttack": 45,
+        "spDefense": 40,
+        "speed": 65
+      },
+      "abilities": [
+        {
+          "name": "Pest",
+          "effect": "Nach Einsatz einer Käfer-Attacke steigt die Initiative um 1 Stufe (+1; maximal +6)."
+        },
+        {
+          "name": "Glow",
+          "effect": "Verbesserte Sicht an dunklen Orten (Erkundung)."
+        },
+        {
+          "name": "Light the Way",
+          "effect": "Beim Fang: ermöglicht 5 Minuten Sicht in einer Höhle (Erkundung)."
+        }
+      ],
+      "description": "Ein scheues Höhlen-Pokémon. Sein Leuchten kann Wanderer erschrecken, die sich zu tief in seine dunkle Heimat wagen.",
+      "evolution": {
+        "to": "Protegg",
+        "level": 12
+      },
+      "drop": "Glow Spot",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Silberblick"
+          },
+          {
+            "level": 5,
+            "name": "Käferbiss"
+          },
+          {
+            "level": 8,
+            "name": "Fadenschuss"
+          },
+          {
+            "level": 11,
+            "name": "Käfertrutz"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Käfertrutz"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Alternative Farbvariante entsprechend der Vorlage."
+    },
+    {
+      "id": 17,
+      "name": "Protegg",
+      "category": "Gepanzertes Kokon-Pokémon",
+      "types": [
+        "Käfer",
+        "Stahl"
+      ],
+      "heightM": 0.6,
+      "weightKg": 15.9,
+      "rarity": "Uncommon",
+      "habitat": "Höhlen, alle Provinzen",
+      "baseStats": {
+        "hp": 55,
+        "attack": 35,
+        "defense": 110,
+        "spAttack": 35,
+        "spDefense": 85,
+        "speed": 20
+      },
+      "abilities": [
+        {
+          "name": "Reinforced",
+          "effect": "Nach erlittenem sehr effektivem Schaden immun gegen neu zugefügte Statusprobleme bis zum Auswechseln. Bestehende Statusprobleme werden nicht entfernt."
+        }
+      ],
+      "description": "Protegg schützt sich mit einer metallähnlichen Kokonhülle. Seine Hörner machen selbst Angriffe auf den vermeintlich wehrlosen Kokon gefährlich.",
+      "evolution": {
+        "from": "Gohmite",
+        "fromLevel": 12,
+        "to": "Argohma",
+        "level": 30,
+        "condition": "Im Dunkeln"
+      },
+      "drop": "Protegg Shard",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Härtner"
+          },
+          {
+            "level": 5,
+            "name": "Käferbiss"
+          },
+          {
+            "level": 12,
+            "name": "Eisenabwehr"
+          },
+          {
+            "level": 16,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 20,
+            "name": "Metallklaue"
+          },
+          {
+            "level": 25,
+            "name": "Eisenschädel"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Eisenabwehr",
+          "Delegator",
+          "Lichtschild"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Alternative Farbvariante entsprechend der Vorlage."
+    },
+    {
+      "id": 18,
+      "name": "Argohma",
+      "category": "Gepanzertes Gohma-Pokémon",
+      "types": [
+        "Käfer",
+        "Stahl"
+      ],
+      "heightM": 1.2,
+      "weightKg": 113.4,
+      "rarity": "Rare",
+      "habitat": "Höhlen, alle Provinzen",
+      "baseStats": {
+        "hp": 85,
+        "attack": 120,
+        "defense": 115,
+        "spAttack": 65,
+        "spDefense": 85,
+        "speed": 55
+      },
+      "abilities": [
+        {
+          "name": "Parasitic Retreat",
+          "effect": "Bei Erreichen von höchstens 25 % KP (und mehr als 0 KP): einmal pro Kampf automatischer Rückzug; heilt auf 50 % der maximalen KP und belegt das gegnerische Ziel mit Infested. Bei fehlendem Ersatz-Pokémon Rückzug durch Spielleitung klären."
+        }
+      ],
+      "description": "Argohma lauert an Höhlendecken auf Beute. Sein eisenharter Panzer schützt seinen weichen Körper, während seine Klauen rasiermesserscharf sind.",
+      "evolution": {
+        "from": "Protegg",
+        "fromLevel": 30,
+        "condition": "Im Dunkeln"
+      },
+      "drop": "Argohma Mandible",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Härtner"
+          },
+          {
+            "level": 5,
+            "name": "Käferbiss"
+          },
+          {
+            "level": 12,
+            "name": "Eisenabwehr"
+          },
+          {
+            "level": 16,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 20,
+            "name": "Metallklaue"
+          },
+          {
+            "level": 25,
+            "name": "Eisenschädel"
+          },
+          {
+            "level": 30,
+            "name": "Kreuzschere"
+          },
+          {
+            "level": 36,
+            "name": "Eisenschädel"
+          },
+          {
+            "level": 42,
+            "name": "Käfergebrumm"
+          },
+          {
+            "level": 49,
+            "name": "Eisenschweif"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Eisenabwehr",
+          "Delegator",
+          "Kreuzschere",
+          "Eisenschweif",
+          "Erdbeben",
+          "Steinkante"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Alternative Farbvariante entsprechend der Vorlage."
+    },
+    {
+      "id": 19,
+      "name": "Chikito",
+      "category": "Orni-Küken-Pokémon",
+      "types": [
+        "Flug"
+      ],
+      "heightM": 0.3,
+      "weightKg": 1.1,
+      "rarity": "Common",
+      "habitat": "Hyrule-Feld und Klippen, alle Provinzen",
+      "baseStats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "spAttack": 45,
+        "spDefense": 35,
+        "speed": 70
+      },
+      "abilities": [
+        {
+          "name": "Updraft",
+          "effect": "Nach Einsatz einer Feuer- oder Elektro-Attacke: 3 Runden Aufwind, Flug-Pokémon Initiative ×1,5 (Hausregel)."
+        },
+        {
+          "name": "Quick Flight",
+          "effect": "Kurze Strecken fliegen und von Klippen gleiten."
+        }
+      ],
+      "description": "Chikito können noch nicht richtig fliegen, gleiten aber von Hügeln und Klippen. Regen erschwert ihnen das Gleiten.",
+      "evolution": {
+        "to": "Falcolt",
+        "level": 16
+      },
+      "drop": "Chikito Feather",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Windstoß"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 9,
+            "name": "Flügelschlag"
+          },
+          {
+            "level": 13,
+            "name": "Agilität"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Ruheort",
+          "Kehrtwende"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Alternative Farbvariante entsprechend der Vorlage."
+    },
+    {
+      "id": 20,
+      "name": "Falcolt",
+      "category": "Orni-Pokémon",
+      "types": [
+        "Flug",
+        "Elektro"
+      ],
+      "heightM": 1.1,
+      "weightKg": 16.1,
+      "rarity": "Uncommon",
+      "habitat": "Orni-Spitze, Hebra",
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 55,
+        "spAttack": 80,
+        "spDefense": 55,
+        "speed": 105
+      },
+      "abilities": [
+        {
+          "name": "Lightning Rush",
+          "effect": "Zwei Elektro-Attacken hintereinander: die zweite trifft garantiert und verursacht ×1,2 Schaden (Hausregel); danach zurückgesetzt."
+        }
+      ],
+      "description": "Falcolt lieben Gewitter und nutzen deren Energie, um ihre Flüge zu verlängern.",
+      "evolution": {
+        "from": "Chikito",
+        "fromLevel": 16,
+        "to": "Raival",
+        "level": 36,
+        "condition": "Gewitter"
+      },
+      "drop": "Falcolt Feather",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Windstoß"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 9,
+            "name": "Flügelschlag"
+          },
+          {
+            "level": 13,
+            "name": "Agilität"
+          },
+          {
+            "level": 16,
+            "name": "Funkensprung"
+          },
+          {
+            "level": 20,
+            "name": "Windschnitt"
+          },
+          {
+            "level": 24,
+            "name": "Donnerwelle"
+          },
+          {
+            "level": 28,
+            "name": "Luftschnitt"
+          },
+          {
+            "level": 32,
+            "name": "Ladungsstoß"
+          }
+        ],
+        "tm": [
+          "Donnerblitz",
+          "Donner",
+          "Voltwechsel",
+          "Donnerwelle",
+          "Luftschnitt",
+          "Fliegen",
+          "Schutzschild",
+          "Delegator",
+          "Ruheort",
+          "Kehrtwende"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Alternative Farbvariante entsprechend der Vorlage."
+    },
+    {
+      "id": 21,
+      "name": "Raival",
+      "category": "Blitz-Orni-Pokémon",
+      "types": [
+        "Flug",
+        "Elektro"
+      ],
+      "heightM": 1.6,
+      "weightKg": 38.6,
+      "rarity": "Super Rare",
+      "habitat": "Orni-Spitze, Hebra, bei Gewitter",
+      "baseStats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 70,
+        "spAttack": 125,
+        "spDefense": 80,
+        "speed": 130
+      },
+      "abilities": [
+        {
+          "name": "Storm Surge",
+          "effect": "Flug- oder Elektro-Attacken gegen paralysierte Ziele erzielen garantiert einen Volltreffer."
+        },
+        {
+          "name": "Bolt Drainer",
+          "effect": "Beim Fangen werden alle paralysierten Pokémon im Team geheilt (GM/Fangereignis)."
+        }
+      ],
+      "description": "Raival nutzen Elektrizität zum Fliegen und laden ihre Kräfte mitten im Gewitter auf. Ihr Federschal speichert besondere elektrische Energie.",
+      "evolution": {
+        "from": "Falcolt",
+        "fromLevel": 36,
+        "condition": "Gewitter"
+      },
+      "drop": "Raival Feather Scarf",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Windstoß"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 9,
+            "name": "Flügelschlag"
+          },
+          {
+            "level": 13,
+            "name": "Agilität"
+          },
+          {
+            "level": 16,
+            "name": "Funkensprung"
+          },
+          {
+            "level": 20,
+            "name": "Windschnitt"
+          },
+          {
+            "level": 24,
+            "name": "Donnerwelle"
+          },
+          {
+            "level": 28,
+            "name": "Luftschnitt"
+          },
+          {
+            "level": 32,
+            "name": "Ladungsstoß"
+          },
+          {
+            "level": 36,
+            "name": "Donnerblitz"
+          },
+          {
+            "level": 41,
+            "name": "Rückenwind"
+          },
+          {
+            "level": 46,
+            "name": "Orkan"
+          },
+          {
+            "level": 51,
+            "name": "Donner"
+          },
+          {
+            "level": 57,
+            "name": "Revalis Sturmstoß"
+          }
+        ],
+        "tm": [
+          "Donnerblitz",
+          "Donner",
+          "Voltwechsel",
+          "Donnerwelle",
+          "Luftschnitt",
+          "Fliegen",
+          "Schutzschild",
+          "Delegator",
+          "Ruheort",
+          "Kehrtwende"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Alternative Farbvariante entsprechend der Vorlage."
+    },
+    {
+      "id": 31,
+      "name": "Pixi",
+      "category": "Feen-Pokémon",
+      "types": [
+        "Fee"
+      ],
+      "heightM": 0.2,
+      "weightKg": 0.5,
+      "rarity": "Common",
+      "habitat": "Alle Provinzen, besonders Feenquellen",
+      "baseStats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 40,
+        "spAttack": 55,
+        "spDefense": 55,
+        "speed": 65
+      },
+      "abilities": [
+        {
+          "name": "Battle Spirit",
+          "effect": "Verursacht Pixi mit einer Fee-Attacke Schaden, heilt es das Team-Pokémon mit dem niedrigsten KP-Prozentsatz um 1/16 seiner maximalen KP (mindestens 1). Jede erfolgreiche Heilung zählt zur Entwicklung."
+        },
+        {
+          "name": "Hey! Look! Listen!",
+          "effect": "Markiert beim Erkunden gelegentlich interessante Orte und gibt Tipps; optional deaktivierbar."
+        },
+        {
+          "name": "Preparation",
+          "effect": "Beim Fang werden alle Teammitglieder vollständig geheilt und erhalten für den nächsten Kampf +1 auf Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung und Initiative."
+        }
+      ],
+      "description": "Pixi leben überall in Hyrule, besonders an Feenquellen. Sie helfen geschwächten Pokémon, indem sie deren Verletzungen heilen.",
+      "evolution": null,
+      "drop": "Pixi Dust",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Charme"
+          },
+          {
+            "level": 9,
+            "name": "Feenbrise"
+          },
+          {
+            "level": 13,
+            "name": "Heilwoge"
+          },
+          {
+            "level": 17,
+            "name": "Säuselstimme"
+          },
+          {
+            "level": 21,
+            "name": "Wunschtraum"
+          },
+          {
+            "level": 25,
+            "name": "Zauberschein"
+          },
+          {
+            "level": 29,
+            "name": "Rechte Hand"
+          },
+          {
+            "level": 33,
+            "name": "Mondgewalt"
+          },
+          {
+            "level": 37,
+            "name": "Heilopfer"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Zauberschein",
+          "Gedankengut",
+          "Donnerwelle",
+          "Erholung",
+          "Lichtschild",
+          "Reflektor",
+          "Ruheort"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Blau-türkise Feenfarben statt rosafarbenem Leuchten."
+    },
+    {
+      "id": 32,
+      "name": "Farinade",
+      "category": "Quellfeen-Pokémon",
+      "types": [
+        "Fee",
+        "Wasser"
+      ],
+      "heightM": 0.6,
+      "weightKg": 11.3,
+      "rarity": "Rare",
+      "habitat": "Alle Provinzen, Feenquellen",
+      "baseStats": {
+        "hp": 75,
+        "attack": 45,
+        "defense": 70,
+        "spAttack": 105,
+        "spDefense": 100,
+        "speed": 85
+      },
+      "abilities": [
+        {
+          "name": "Healing Flow",
+          "effect": "Nachdem Farinade ein Pokémon durch eine Heilattacke geheilt hat, verursacht die nächste schadensverursachende Attacke 30 % mehr Schaden; danach endet der Bonus."
+        },
+        {
+          "name": "Life Dew",
+          "effect": "Erzeugt gelegentlich einen Farinade Dew Drop, sofern es kein Item trägt."
+        }
+      ],
+      "description": "Farinade speichern das heilige Wasser der Feenquellen als Tau und unterstützen damit Reisende. Sie können auch andere Kräfte aufnehmen.",
+      "evolution": {
+        "from": "Pixi",
+        "condition": "Mindestens 10 erfolgreiche Battle-Spirit-Heilungen (Kampflog zählt mit)"
+      },
+      "drop": "Farinade Dew Drop",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 1,
+            "name": "Feenbrise"
+          },
+          {
+            "level": 1,
+            "name": "Aquaknarre"
+          },
+          {
+            "level": 9,
+            "name": "Heilwoge"
+          },
+          {
+            "level": 13,
+            "name": "Säuselstimme"
+          },
+          {
+            "level": 17,
+            "name": "Wunschtraum"
+          },
+          {
+            "level": 21,
+            "name": "Blubbstrahl"
+          },
+          {
+            "level": 25,
+            "name": "Zauberschein"
+          },
+          {
+            "level": 29,
+            "name": "Aquawelle"
+          },
+          {
+            "level": 33,
+            "name": "Mondgewalt"
+          },
+          {
+            "level": 37,
+            "name": "Genesung"
+          },
+          {
+            "level": 43,
+            "name": "Surfer"
+          },
+          {
+            "level": 49,
+            "name": "Hydropumpe"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Zauberschein",
+          "Gedankengut",
+          "Surfer",
+          "Siedewasser",
+          "Eisstrahl",
+          "Lichtschild",
+          "Reflektor",
+          "Erholung"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Goldgelbe Flügel und türkisfarbenes Haar."
+    },
+    {
+      "id": 129,
+      "name": "Oakami",
+      "category": "Waldwolf-Pokémon",
+      "types": [
+        "Normal",
+        "Pflanze"
+      ],
+      "heightM": 0.5,
+      "weightKg": 9.2,
+      "rarity": "Rare",
+      "habitat": "Wälder aller Provinzen, besonders tiefe Waldgebiete",
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 70,
+        "spAttack": 55,
+        "spDefense": 70,
+        "speed": 105
+      },
+      "abilities": [
+        {
+          "name": "Courageous",
+          "effect": "Bei höchstens 25 % maximalen KP verursachen Oakamis Pflanzen- und Kampf-Attacken 50 % mehr Schaden."
+        },
+        {
+          "name": "Protector",
+          "effect": "Knurrt beim Erkunden, wenn besonders hochstufige Pokémon in der Nähe sind; Hinweis für die Spielleitung."
+        }
+      ],
+      "description": "Oakami bewachen die Wälder Hyrules gegen finstere Mächte. Wenn ihre Gefährten in Gefahr sind, kämpfen sie mit außergewöhnlichem Mut. Manchmal verfolgen sie einen geisterhaft weißen Wolf, der ihnen verblüffend ähnlich sieht.",
+      "evolution": null,
+      "drop": "Oakami Hair",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Biss"
+          },
+          {
+            "level": 9,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 13,
+            "name": "Rasierblatt"
+          },
+          {
+            "level": 17,
+            "name": "Jauler"
+          },
+          {
+            "level": 21,
+            "name": "Samenbomben"
+          },
+          {
+            "level": 26,
+            "name": "Knirscher"
+          },
+          {
+            "level": 31,
+            "name": "Laubklinge"
+          },
+          {
+            "level": 36,
+            "name": "Schwerttanz"
+          },
+          {
+            "level": 42,
+            "name": "Holzhammer"
+          },
+          {
+            "level": 48,
+            "name": "Nahkampf"
+          },
+          {
+            "level": 54,
+            "name": "Synthese"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Schwerttanz",
+          "Energieball",
+          "Solarstrahl",
+          "Gigasauger",
+          "Durchbruch",
+          "Steinkante",
+          "Erdbeben"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Dunkelblaues Fell mit hellblauen Akzenten und rötlichen Augen."
+    },
+    {
+      "id": 190,
+      "name": "Griffel",
+      "category": "Langschweif-Pokémon",
+      "types": [
+        "Normal"
+      ],
+      "heightM": 0.8,
+      "weightKg": 11.5,
+      "rarity": "Uncommon",
+      "habitat": "Wälder von Hyrule, insbesondere nahe der Waldwege",
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 55,
+        "spAttack": 40,
+        "spDefense": 55,
+        "speed": 85
+      },
+      "abilities": [
+        {
+          "name": "Techniker",
+          "effect": "Attacken mit einer Grundstärke von höchstens 60 werden um 50 % verstärkt. Bei Mehrfachtreffern gilt dies pro Treffer."
+        },
+        {
+          "name": "Mitnahme",
+          "effect": "Kann außerhalb des Kampfes gelegentlich einen gefundenen Gegenstand mitbringen."
+        },
+        {
+          "name": "Wertelink",
+          "effect": "Erleidet keinen Schaden durch eigene Rückstoß-Effekte, soweit die Attacke dafür vorgesehen ist."
+        }
+      ],
+      "description": "Griffel durchstreift die Wälder Hyrules und greift mit seiner geschickten Schweifhand nach Beeren und kleinen Gegenständen. Mit dieser zusätzlichen Hand klettert es blitzschnell und spielt Reisenden gern Streiche.",
+      "evolution": {
+        "to": "Ambidiffel",
+        "condition": "Levelaufstieg, während Griffel Doppelschlag beherrscht"
+      },
+      "drop": "Griffel-Haar",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Kratzer"
+          },
+          {
+            "level": 1,
+            "name": "Rutenschlag"
+          },
+          {
+            "level": 4,
+            "name": "Sandwirbel"
+          },
+          {
+            "level": 8,
+            "name": "Erstaunen"
+          },
+          {
+            "level": 11,
+            "name": "Staffette"
+          },
+          {
+            "level": 15,
+            "name": "Klaps"
+          },
+          {
+            "level": 18,
+            "name": "Sternschauer"
+          },
+          {
+            "level": 22,
+            "name": "Kreideschrei"
+          },
+          {
+            "level": 25,
+            "name": "Agilität"
+          },
+          {
+            "level": 29,
+            "name": "Doppelschlag"
+          },
+          {
+            "level": 32,
+            "name": "Mogelhieb"
+          },
+          {
+            "level": 36,
+            "name": "Abschlag"
+          },
+          {
+            "level": 40,
+            "name": "Fuchtler"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Kehrtwende",
+          "Abschlag",
+          "Donnerwelle",
+          "Spukball",
+          "Rückkehr",
+          "Doppelschlag"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Rosa statt violettes Fell."
+    },
+    {
+      "id": 424,
+      "name": "Ambidiffel",
+      "category": "Langschweif-Pokémon",
+      "types": [
+        "Normal"
+      ],
+      "heightM": 1.2,
+      "weightKg": 20.3,
+      "rarity": "Rare",
+      "habitat": "Tiefe Wälder von Hyrule und hohe Baumkronen",
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 66,
+        "spAttack": 60,
+        "spDefense": 66,
+        "speed": 115
+      },
+      "abilities": [
+        {
+          "name": "Techniker",
+          "effect": "Attacken mit einer Grundstärke von höchstens 60 werden um 50 % verstärkt. Bei Mehrfachtreffern gilt dies pro Treffer."
+        },
+        {
+          "name": "Mitnahme",
+          "effect": "Kann außerhalb des Kampfes gelegentlich einen gefundenen Gegenstand mitbringen."
+        },
+        {
+          "name": "Wertelink",
+          "effect": "Erleidet keinen Schaden durch eigene Rückstoß-Effekte, soweit die Attacke dafür vorgesehen ist."
+        }
+      ],
+      "description": "Ambidiffel besitzt zwei kräftige Schweifhände, mit denen es Nahrung sammelt, Hindernisse überwindet und präzise Schläge austeilt. In den Baumwipfeln Hyrules bewegt es sich so schnell, dass seine Hände kaum zu erkennen sind.",
+      "evolution": {
+        "from": "Griffel",
+        "condition": "Levelaufstieg mit Doppelschlag"
+      },
+      "drop": "Ambidiffel-Haar",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Kratzer"
+          },
+          {
+            "level": 1,
+            "name": "Rutenschlag"
+          },
+          {
+            "level": 1,
+            "name": "Sandwirbel"
+          },
+          {
+            "level": 1,
+            "name": "Doppelschlag"
+          },
+          {
+            "level": 15,
+            "name": "Klaps"
+          },
+          {
+            "level": 22,
+            "name": "Kreideschrei"
+          },
+          {
+            "level": 25,
+            "name": "Agilität"
+          },
+          {
+            "level": 29,
+            "name": "Doppelschlag"
+          },
+          {
+            "level": 32,
+            "name": "Mogelhieb"
+          },
+          {
+            "level": 36,
+            "name": "Abschlag"
+          },
+          {
+            "level": 43,
+            "name": "Fuchtler"
+          },
+          {
+            "level": 49,
+            "name": "Doppelschlag"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Kehrtwende",
+          "Abschlag",
+          "Donnerwelle",
+          "Spukball",
+          "Rückkehr",
+          "Doppelschlag"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Rosa statt violettes Fell."
+    },
+    {
+      "id": 456,
+      "name": "Finneon",
+      "category": "Flügelfisch-Pokémon",
+      "types": [
+        "Wasser"
+      ],
+      "heightM": 0.4,
+      "weightKg": 7,
+      "rarity": "Uncommon",
+      "habitat": "Küstengewässer von Necluda und Lanayru, Seen und ruhige Flussläufe",
+      "baseStats": {
+        "hp": 49,
+        "attack": 49,
+        "defense": 56,
+        "spAttack": 49,
+        "spDefense": 61,
+        "speed": 66
+      },
+      "abilities": [
+        {
+          "name": "Wassertempo",
+          "effect": "Verdoppelt bei Regen die Initiative. Wetter und Initiative müssen ggf. vom Spielleiter berücksichtigt werden."
+        },
+        {
+          "name": "Sturmsog",
+          "effect": "Zieht Wasser-Attacken auf sich und erhöht dadurch den Spezial-Angriff um 1 Stufe; Mehrziel-Kämpfe werden nicht vollständig simuliert."
+        },
+        {
+          "name": "Aquahülle (versteckt)",
+          "effect": "Verhindert Verbrennungen."
+        }
+      ],
+      "description": "Finneons beiden Schwanzflossen schimmern im Mondlicht wie die Flügel einer kleinen Fee. In Hyrules klaren Küstengewässern schwimmen sie nachts in Gruppen und hinterlassen glitzernde Lichtspuren.",
+      "evolution": {
+        "to": "Lumineon",
+        "level": 31
+      },
+      "drop": "Finneon-Schuppe",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 6,
+            "name": "Aquaknarre"
+          },
+          {
+            "level": 10,
+            "name": "Anziehung"
+          },
+          {
+            "level": 13,
+            "name": "Regentanz"
+          },
+          {
+            "level": 17,
+            "name": "Windstoß"
+          },
+          {
+            "level": 22,
+            "name": "Aquawelle"
+          },
+          {
+            "level": 26,
+            "name": "Bodyguard"
+          },
+          {
+            "level": 31,
+            "name": "Wasserring"
+          },
+          {
+            "level": 35,
+            "name": "Silberhauch"
+          },
+          {
+            "level": 39,
+            "name": "Surfer"
+          },
+          {
+            "level": 44,
+            "name": "Hydropumpe"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Regentanz",
+          "Surfer",
+          "Eisstrahl",
+          "Kaskade",
+          "Aquawelle",
+          "Kehrtwende"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Blaugrüne statt violettrosa Flossenakzente."
+    },
+    {
+      "id": 457,
+      "name": "Lumineon",
+      "category": "Neonfisch-Pokémon",
+      "types": [
+        "Wasser"
+      ],
+      "heightM": 1.2,
+      "weightKg": 24,
+      "rarity": "Rare",
+      "habitat": "Tiefere Gewässer vor Lanayru und Necluda, Leuchtbuchten und Seen",
+      "baseStats": {
+        "hp": 69,
+        "attack": 69,
+        "defense": 76,
+        "spAttack": 69,
+        "spDefense": 86,
+        "speed": 91
+      },
+      "abilities": [
+        {
+          "name": "Wassertempo",
+          "effect": "Verdoppelt bei Regen die Initiative. Wetter und Initiative müssen ggf. vom Spielleiter berücksichtigt werden."
+        },
+        {
+          "name": "Sturmsog",
+          "effect": "Zieht Wasser-Attacken auf sich und erhöht dadurch den Spezial-Angriff um 1 Stufe; Mehrziel-Kämpfe werden nicht vollständig simuliert."
+        },
+        {
+          "name": "Aquahülle (versteckt)",
+          "effect": "Verhindert Verbrennungen."
+        }
+      ],
+      "description": "Lumineons leuchtende Flossen zeichnen elegante Muster durch die dunklen Gewässer Hyrules. Fischer berichten, dass ihre sanften Lichtsignale andere Wasser-Pokémon anlocken und selbst in der Tiefe sichtbar bleiben.",
+      "evolution": {
+        "from": "Finneon",
+        "level": 31
+      },
+      "drop": "Lumineon-Schuppe",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Pfund"
+          },
+          {
+            "level": 1,
+            "name": "Aquaknarre"
+          },
+          {
+            "level": 1,
+            "name": "Windstoß"
+          },
+          {
+            "level": 13,
+            "name": "Regentanz"
+          },
+          {
+            "level": 17,
+            "name": "Aquawelle"
+          },
+          {
+            "level": 22,
+            "name": "Silberhauch"
+          },
+          {
+            "level": 26,
+            "name": "Bodyguard"
+          },
+          {
+            "level": 31,
+            "name": "Wasserring"
+          },
+          {
+            "level": 35,
+            "name": "Surfer"
+          },
+          {
+            "level": 42,
+            "name": "Käfergebrumm"
+          },
+          {
+            "level": 48,
+            "name": "Hydropumpe"
+          },
+          {
+            "level": 53,
+            "name": "Eisstrahl"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Regentanz",
+          "Surfer",
+          "Eisstrahl",
+          "Kaskade",
+          "Aquawelle",
+          "Kehrtwende"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Türkisgrüne statt dunkelblaue Leuchtmuster."
+    },
+    {
+      "id": 672,
+      "name": "Skiddo",
+      "category": "Ordon-Ziegen-Pokémon",
+      "types": [
+        "Normal"
+      ],
+      "heightM": 1.1,
+      "weightKg": 45.4,
+      "rarity": "Common",
+      "habitat": "Ordon-Provinz: Weiden, Ranches und Felder",
+      "baseStats": {
+        "hp": 66,
+        "attack": 65,
+        "defense": 55,
+        "spAttack": 35,
+        "spDefense": 55,
+        "speed": 54
+      },
+      "abilities": [
+        {
+          "name": "Endure",
+          "effect": "Sinken die AP einer von Skiddo eingesetzten Attacke durch den Einsatz erstmals unter die Hälfte ihres Maximums, steigt seine Verteidigung um 1 Stufe. Pro Attacke und AP-Unterschreitung einmal."
+        },
+        {
+          "name": "Dairy Farm",
+          "effect": "Erzeugt gelegentlich Ordon Goat Milk, sofern es kein Item trägt. Außerhalb des Kampfes."
+        },
+        {
+          "name": "Say Cheese!",
+          "effect": "Beim Fang erhält man Ordon Goat Cheese."
+        }
+      ],
+      "description": "Skiddo liefert die Milch für den beliebten Ordon-Ziegenkäse. Seine ringförmigen Hörner erinnern an die Verbindung der Ordon-Bewohner zum Lichtgeist Xerneas. Auf den Weiden springt es munter über Zäune und niedrige Mauern.",
+      "evolution": {
+        "to": "Ramrush",
+        "level": 32,
+        "condition": "In der Akkala-Provinz"
+      },
+      "drop": "Ordon Goat Milk",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 5,
+            "name": "Rutenschlag"
+          },
+          {
+            "level": 9,
+            "name": "Stampfer"
+          },
+          {
+            "level": 13,
+            "name": "Ruckzuckhieb"
+          },
+          {
+            "level": 17,
+            "name": "Kopfnuss"
+          },
+          {
+            "level": 21,
+            "name": "Ausdauer"
+          },
+          {
+            "level": 26,
+            "name": "Bodycheck"
+          },
+          {
+            "level": 30,
+            "name": "Schutzschild"
+          },
+          {
+            "level": 35,
+            "name": "Zen-Kopfstoß"
+          },
+          {
+            "level": 40,
+            "name": "Risikotackle"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erdbeben",
+          "Steinkante",
+          "Bodycheck",
+          "Rückkehr",
+          "Ausdauer"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Grünes Fell und graue Ringhörner.",
+      "dexNumber": "0672"
+    },
+    {
+      "id": 6721,
+      "name": "Ramrush",
+      "category": "Verteidiger-Pokémon",
+      "types": [
+        "Normal",
+        "Gestein"
+      ],
+      "heightM": 1.8,
+      "weightKg": 158.8,
+      "rarity": "Common",
+      "habitat": "Akkala-Provinz: Berge und Felsklippen",
+      "baseStats": {
+        "hp": 90,
+        "attack": 115,
+        "defense": 120,
+        "spAttack": 40,
+        "spDefense": 75,
+        "speed": 60
+      },
+      "abilities": [
+        {
+          "name": "Stone Horns",
+          "effect": "Erleidet 20 % weniger Schaden durch sehr effektive Angriffe (nach Typenberechnung)."
+        },
+        {
+          "name": "Premium Supply",
+          "effect": "Beim Verkauf von Milchprodukten erhält man doppelte Rubine; außerhalb des Kampfes."
+        },
+        {
+          "name": "Churn",
+          "effect": "Beim Fang erhält man Rare Butter."
+        }
+      ],
+      "description": "In Akkalas Bergen wachsen Skiddos Hörner zu massiven Steinringen heran. Als Ramrush trotzt es Geröll und rauem Wetter und verteidigt seine Herde mit mächtigen Kopfstößen.",
+      "evolution": {
+        "from": "Skiddo",
+        "level": 32,
+        "condition": "In der Akkala-Provinz"
+      },
+      "drop": "Rare Milk",
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "name": "Tackle"
+          },
+          {
+            "level": 1,
+            "name": "Heuler"
+          },
+          {
+            "level": 1,
+            "name": "Stampfer"
+          },
+          {
+            "level": 17,
+            "name": "Kopfnuss"
+          },
+          {
+            "level": 21,
+            "name": "Ausdauer"
+          },
+          {
+            "level": 26,
+            "name": "Bodycheck"
+          },
+          {
+            "level": 32,
+            "name": "Steinhagel"
+          },
+          {
+            "level": 37,
+            "name": "Eisenabwehr"
+          },
+          {
+            "level": 43,
+            "name": "Steinkante"
+          },
+          {
+            "level": 49,
+            "name": "Rammboss"
+          },
+          {
+            "level": 55,
+            "name": "Kopfstoß"
+          }
+        ],
+        "tm": [
+          "Schutzschild",
+          "Delegator",
+          "Erdbeben",
+          "Steinkante",
+          "Steinhagel",
+          "Eisenabwehr",
+          "Bodycheck",
+          "Rückkehr"
+        ],
+        "hm": []
+      },
+      "shinyDescription": "Graubraune Hörner und grünbraunes Fell.",
+      "dexNumber": "0672 E"
+    }
+  ]
+}
