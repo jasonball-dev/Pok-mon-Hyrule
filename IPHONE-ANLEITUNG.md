@@ -19,3 +19,7 @@ Team, KP und importierte Kataloge werden lokal in Safari/Home-Bildschirm-Web-App
 - GitHub Pages ist bei einem öffentlichen Repository öffentlich zugänglich. Keine privaten Daten oder Spielstände ins Repository laden.
 - Wenn eine alte Version bereits im Browser gespeichert ist, können importierte Kataloge die eingebauten neueren Kataloge überlagern.
 - Die App wurde technisch paketiert, aber nicht auf einem realen iPhone getestet.
+
+
+## V28: Teamkarte entfernen
+Das × entfernt das Pokémon nach Bestätigung. Teamkarten, Auswahl und Schadensrechner aktualisieren sich sofort; KP, Statusstufen und Team werden lokal gespeichert. Für Updates auf GitHub Pages alle Dateien aus dieser ZIP in das Repository hochladen und ersetzen.
